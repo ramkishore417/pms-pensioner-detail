@@ -3,9 +3,9 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:ap-south-1:555918697305:task-definition/pensioner-detail-microservice:32"
+        TaskDefinition: "arn:aws:ecs:ap-south-1:860061945305:task-definition/ecr-ramkishore-pensioner-detail:1"
         LoadBalancerInfo:
-          ContainerName: "pensioner-detail"
+          ContainerName: "ecr-ramkishore-pensioner-detail"
           ContainerPort: "8002"
 
         PlatformVersion: "LATEST"
