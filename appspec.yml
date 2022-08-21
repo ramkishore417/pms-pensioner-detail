@@ -5,7 +5,7 @@
 #      Properties:
 #        TaskDefinition: "arn:aws:ecs:ap-south-1:555918697305:task-definition/pensioner-detail-microservice:32"
 #        LoadBalancerInfo:
-#          ContainerName: "pensioner-detail"
+#          ContainerName: "pensioner-detail."
 #          ContainerPort: "8002"
 #
 #        PlatformVersion: "LATEST"
