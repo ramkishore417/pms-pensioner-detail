@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RequestHeader;
 public interface AuthorizationClient {
 
     /* Validating jwt token with Authorization Microservice */
-    @GetMapping("/authorize")
+    @GetMapping("/api/authorization/authorize")
     public Boolean authorization(@RequestHeader("Authorization") String token);
 }
