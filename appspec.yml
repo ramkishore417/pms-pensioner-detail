@@ -5,7 +5,7 @@ Resources:
       Properties:
         TaskDefinition: "arn:aws:ecs:ap-south-1:860061945305:task-definition/ecs-ramkishore-pensioner-detail:1"
         LoadBalancerInfo:
-          ContainerName: "ecr-ramkishore-pensioner-detail"
+          ContainerName: "ecs-ramkishore-pensioner-detail"
           ContainerPort: "8002"
 
         PlatformVersion: "LATEST"

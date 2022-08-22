@@ -10,7 +10,7 @@ phases:
       - aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin 860061945305.dkr.ecr.ap-south-1.amazonaws.com
       - IMAGE_NAME=ecr-ramkishore-pensioner-detail
       - IMAGE_URI=860061945305.dkr.ecr.ap-south-1.amazonaws.com/ecr-ramkishore-pensioner-detail:latest
-      - CONTAINER_NAME=ecr-ramkishore-pensioner-detail
+      - CONTAINER_NAME=ecs-ramkishore-pensioner-detail
   build:
     commands:
       - echo Build started on `date`
