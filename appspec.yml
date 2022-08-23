@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:ap-south-1:860061945305:task-definition/ecs-ramkishore-pensioner-detail:1"
+        TaskDefinition: "arn:aws:ecs:ap-south-1:860061945305:task-definition/ecs-ramkishore-pensioner-detail:3"
         LoadBalancerInfo:
           ContainerName: "ecs-ramkishore-pensioner-detail"
           ContainerPort: "8002"
