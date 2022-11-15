@@ -11,7 +11,7 @@
 	<groupId>com.ramkishore</groupId>
 	<artifactId>pensionerdetail</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>pensioner detail</name>
+	<name>pensioner-detail</name>
 	<description>Pensioner Detail Microservice</description>
 	<properties>
 		<java.version>8</java.version>
@@ -121,17 +121,18 @@
 						<id>default</id>
 						<goals>
 							<goal>build</goal>
-							<!--							 <goal>push</goal> -->
+							<goal>push</goal>
 						</goals>
 					</execution>
 				</executions>
 				<configuration>
 					<repository>ramkishore/${project.name}</repository>
 					<tag>${project.version}</tag>
-					<skipDockerInfo>true</skipDockerInfo>
+					<buildArgs>
+						<JAR_FILE>${project.build.finalName}.jar</JAR_FILE>
+					</buildArgs>
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>pensionerdetail-microservice</finalName>
 	</build>
 </project>
