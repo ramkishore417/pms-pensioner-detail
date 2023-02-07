@@ -2,11 +2,12 @@
 
 ### Functional Requirements
 
-The intent of this Microservice is to provide the Pensioner detail based on Aadhaar number. Post
+The intent of this Microservice is to provide the Pensioner detail based on Aadhaar number. Post Authorization using JWT, pensioner detail like the name, PAN detail, Bank name and bank account number
 
-Authorization using JWT, pensioner detail like the name, PAN detail, Bank name and bank account
+------------
 
-number
+### REQ_02 : Pensioner detail module
+This module is a Middleware Microservice that performs the following operations: · Provides information about the registered pensioner detail i.e., Pensioner name, PAN, bank name, bank account number, bank type – private or public
 
 ------------
 
