@@ -1,4 +1,5 @@
 # Pension Management System | PensionerDetail Microservice
+The intent of this Microservice is to provide the Pensioner detail based on Aadhaar number. Post Authorization using JWT, pensioner detail like the name, PAN detail, Bank name and bank account number
 
 ## Functional Requirements
 
