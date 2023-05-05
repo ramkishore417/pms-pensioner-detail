@@ -4,7 +4,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestHeader;
 
-@FeignClient(name = "authorization-service", url = "http://localhost:8001")
+@FeignClient(name = "authorization-service", url = "http://host.docker.internal:8001")
 public interface AuthorizationClient {
 
     /* Validating jwt token with Authorization Microservice */
